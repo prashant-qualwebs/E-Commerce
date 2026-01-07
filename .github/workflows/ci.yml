@@ -1,0 +1,22 @@
+name: CI - HTML & JS Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check JavaScript syntax
+        run: node -c script.js
+
+      - name: Check HTML files exist
+        run: |
+          test -f index.html
+          test -f login.html
+          test -f signup.html
+          test -f style.css
