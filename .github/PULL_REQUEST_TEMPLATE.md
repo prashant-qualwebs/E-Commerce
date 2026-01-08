@@ -1,18 +1,12 @@
-## Description
-Briefly describe what this PR does.
+## Why
+Why we are doing this change/fix?
+Add qampus URL.
 
-## Changes Made
-- Added / Updated files
-- Key functionality changes
+## What
+What has been done.
 
-## Pages / Files Affected
-- index.html
-- signup.html
-- login.html
-- script.js
-- style.css
+## Implications
+Any associated PR URL or anything that is connected with other functionality.
 
-## Testing
-- [ ] Opened pages locally
-- [ ] Buttons and links working
-- [ ] No console errors
+## Checklist(If needed)
+- [ ] 
